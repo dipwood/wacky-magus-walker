@@ -8,14 +8,19 @@ namespace Crypt
     /// </summary>
     public static class Program
     {
+        public static CryptGame Game { get; internal set; }
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        public static void Main()
         {
-            using (var game = new Game1())
-                game.Run();
+            using (var game = new CryptGame())
+            {
+                Game = game;
+                Game.Run();
+            }
         }
     }
 #endif

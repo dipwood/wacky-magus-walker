@@ -1,0 +1,155 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A701C8E9-D177-4676-964C-B83ED8332E5A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>GameTemplate</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include=".git\ms-persist.xml" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\Crypt.exe" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\Crypt.pdb" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\MonoGame.Framework.dll" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\MonoGame.Framework.xml" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\SharpDX.dll" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\SharpDX.DXGI.dll" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\SharpDX.DXGI.xml" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\SharpDX.XAudio2.dll" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\SharpDX.XAudio2.xml" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\SharpDX.XInput.dll" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\SharpDX.XInput.xml" />
+    <Content Include="Crypt\bin\Windows\x86\Debug\SharpDX.xml" />
+    <Content Include="Crypt\Crypt.csproj" />
+    <Content Include="Crypt\Icon.ico" />
+    <Content Include="Crypt\obj\x86\Debug\Crypt.csproj.FileListAbsolute.txt" />
+    <Content Include="Crypt\obj\x86\Debug\Crypt.exe" />
+    <Content Include="Crypt\obj\x86\Debug\Crypt.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\objects\1f\f0c423042b46cb1d617b81efb715defbe8054d" />
+    <None Include=".git\objects\27\f6ae7b5ac3d7669e631eb701d305b0ac0f8a51" />
+    <None Include=".git\objects\3c\4260651901709dd0d8f6213e8710c0814915fd" />
+    <None Include=".git\objects\3c\4efe206bd0e7230ad0ae8396a3c883c8207906" />
+    <None Include=".git\objects\54\339113ca96e21c5017d6a0e6ec54dfb97af6b8" />
+    <None Include=".git\objects\57\fc083c3974ebe285a01461dc639a4d5f0e8cc4" />
+    <None Include=".git\objects\58\a5d6d0c31fcc8f4fce07a3fc05da292a7c2605" />
+    <None Include=".git\objects\5d\1b67f22b7585232462f16d4cde24ff59fdf006" />
+    <None Include=".git\objects\64\6634e878fc9a6ba8b5e55f5576d99a8f1b9d05" />
+    <None Include=".git\objects\7d\9dec18704053ee43cd7c956022ddbdb34d8de1" />
+    <None Include=".git\objects\7d\e19258e36df2bcd8b6f2514e668f73e5cf1061" />
+    <None Include=".git\objects\91\e3470e1645e6e8d0de6fe9f6b242f366e9a393" />
+    <None Include=".git\objects\d9\db01f11f8e6609e642aaff8483ef6bd74a3967" />
+    <None Include=".git\objects\da\8c1fe74ff03bc3627fa5fb77d4aa01a9d4ba62" />
+    <None Include=".git\objects\db\27d3388e7bfe0be3c9ad1f1fd377c583d3e377" />
+    <None Include=".git\objects\e5\5a46ffcecd474c6a7a5ff8ff2856781a147a13" />
+    <None Include=".git\objects\ef\d5a369dcb4960d8a79b01b886d3bbd0aa1ce72" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".vs\Crypt\v15\.suo" />
+    <None Include=".vs\Crypt\v15\Server\sqlite3\db.lock" />
+    <None Include=".vs\Crypt\v15\Server\sqlite3\storage.ide" />
+    <None Include=".vs\Crypt\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include=".vs\Crypt\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include="Crypt\app.manifest" />
+    <None Include="Crypt\bin\Windows\x86\Debug\Content\font.xnb" />
+    <None Include="Crypt\Content\bin\Windows\Content\font.xnb" />
+    <None Include="Crypt\Content\bin\Windows\font.xnb" />
+    <None Include="Crypt\Content\Content.mgcb" />
+    <None Include="Crypt\Content\font.spritefont" />
+    <None Include="Crypt\Content\obj\Windows\.mgcontent" />
+    <None Include="Crypt\Content\obj\Windows\.mgstats" />
+    <None Include="Crypt\Content\obj\Windows\Content\.mgcontent" />
+    <None Include="Crypt\Content\obj\Windows\Content\.mgstats" />
+    <None Include="Crypt\Content\obj\Windows\Content\font.mgcontent" />
+    <None Include="Crypt\Content\obj\Windows\font.mgcontent" />
+    <None Include="Crypt\obj\x86\Debug\Crypt.csproj.CopyComplete" />
+    <None Include="Crypt\obj\x86\Debug\Crypt.csproj.CoreCompileInputs.cache" />
+    <None Include="Crypt\obj\x86\Debug\Crypt.csprojAssemblyReference.cache" />
+    <None Include="Crypt\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Crypt\Contexts\Message.cs" />
+    <Compile Include="Crypt\Contexts\UpdateContext.cs" />
+    <Compile Include="Crypt\CryptGame.cs" />
+    <Compile Include="Crypt\Entities\Entity.cs" />
+    <Compile Include="Crypt\Factories\ContentFactory.cs" />
+    <Compile Include="Crypt\obj\x86\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Crypt\obj\x86\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Crypt\obj\x86\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Crypt\Program.cs" />
+    <Compile Include="Crypt\Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include="Crypt\bin\Windows\Content\" />
+    <Folder Include="Crypt\bin\Windows\x86\Release\" />
+    <Folder Include="Crypt\Content\soundeffects\" />
+    <Folder Include="Crypt\Content\textures\" />
+    <Folder Include="Crypt\obj\Windows\Content\" />
+    <Folder Include="Crypt\obj\x86\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
